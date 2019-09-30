@@ -15,7 +15,8 @@ namespace FileHandling
             int opcion = 0;
 
             Console.WriteLine("Elija una acción:");
-            Console.WriteLine("1) Crear un archivo, 2) Leer un archivo");
+            Console.WriteLine("1) Crear un archivo");
+            Console.WriteLine("2) Leer un archivo");
             opcion = Convert.ToInt32(Console.ReadLine());
 
             if (opcion==1)
